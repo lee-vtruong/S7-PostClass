@@ -33,5 +33,5 @@ def main():
         right_col.write("Segmented Image")
         right_col.image(segmented_image)
 
-if _name_ == "_main_":
-    main()
+if __name__ == "__main__":
+    app()
