@@ -16,7 +16,7 @@ def segment_image(img_pil, k):
     img_new = img_new.astype(np.uint8)
     return Image.fromarray(img_new)
 
-def main():
+def app():
     st.set_page_config(page_title='Le Van Truong - S7 Postclass')
     st.title("Image Segmentation with kMeans")
     left_col, right_col = st.columns(2)
